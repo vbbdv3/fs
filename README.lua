@@ -1,5 +1,57 @@
 
 local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
+local main = libary:CreateWindow("TP")
+local mod = main:Button("Training Pirate", function()
+local A_1 = "TrainingTpHere"
+local A_2 = "Pirate Island"
+local Event = game:GetService("ReplicatedStorage").LollysCodeLayout.RemotesHandler.RemoteFunctionFolder.TeleportPlr
+Event:InvokeServer(A_1, A_2)
+end)
+local mod = main:Button("Pirate Island", function()
+local A_1 = "WorldTp"
+local A_2 = "Pirate Island"
+local Event = game:GetService("ReplicatedStorage").LollysCodeLayout.RemotesHandler.RemoteFunctionFolder.TeleportPlr
+Event:InvokeServer(A_1, A_2)
+end)
+local mod = main:Button("Planet Nemek", function()
+local A_1 = "WorldTp"
+local A_2 = "Planet Nemek"
+local Event = game:GetService("ReplicatedStorage").LollysCodeLayout.RemotesHandler.RemoteFunctionFolder.TeleportPlr
+Event:InvokeServer(A_1, A_2)
+
+end)
+local mod = main:Button("Chainsaw Town", function()
+local A_1 = "WorldTp"
+local A_2 = "Chainsaw Town"
+local Event = game:GetService("ReplicatedStorage").LollysCodeLayout.RemotesHandler.RemoteFunctionFolder.TeleportPlr
+Event:InvokeServer(A_1, A_2)
+end)
+local mod = main:Button("Walled Kingdom", function()
+local A_1 = "WorldTp"
+local A_2 = "Walled Kingdom"
+local Event = game:GetService("ReplicatedStorage").LollysCodeLayout.RemotesHandler.RemoteFunctionFolder.TeleportPlr
+Event:InvokeServer(A_1, A_2)
+end)
+local mod = main:Button("Slayer Village", function()
+local A_1 = "WorldTp"
+local A_2 = "Slayer Village"
+local Event = game:GetService("ReplicatedStorage").LollysCodeLayout.RemotesHandler.RemoteFunctionFolder.TeleportPlr
+Event:InvokeServer(A_1, A_2)
+end)
+local mod = main:Button("Punch City", function()
+local A_1 = "WorldTp"
+local A_2 = "Punch City"
+local Event = game:GetService("ReplicatedStorage").LollysCodeLayout.RemotesHandler.RemoteFunctionFolder.TeleportPlr
+Event:InvokeServer(A_1, A_2)
+end)
+local mod = main:Button("Heroes Academy", function()
+local A_1 = "WorldTp"
+local A_2 = "Heroes Academy"
+local Event = game:GetService("ReplicatedStorage").LollysCodeLayout.RemotesHandler.RemoteFunctionFolder.TeleportPlr
+Event:InvokeServer(A_1, A_2)
+end)
+
+local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
 local main = libary:CreateWindow("AS")
 local mod = main:Button("CLICK", function()
 	getgenv().farmer = true
@@ -13,12 +65,7 @@ Event:FireServer(A_2)
     end)
 end
 end)
-local mod = main:Button("Training Pirate", function()
-local A_1 = "TrainingTpHere"
-local A_2 = "Pirate Island"
-local Event = game:GetService("ReplicatedStorage").LollysCodeLayout.RemotesHandler.RemoteFunctionFolder.TeleportPlr
-Event:InvokeServer(A_1, A_2)
-end)
+
 
 local mod = main:Button("Next Server", function()
     local Http = game:GetService("HttpService")
