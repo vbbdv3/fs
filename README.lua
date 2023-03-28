@@ -13,6 +13,12 @@ Event:FireServer(A_2)
     end)
 end
 end)
+local mod = main:Button("Training Pirate", function()
+local A_1 = "TrainingTpHere"
+local A_2 = "Pirate Island"
+local Event = game:GetService("ReplicatedStorage").LollysCodeLayout.RemotesHandler.RemoteFunctionFolder.TeleportPlr
+Event:InvokeServer(A_1, A_2)
+end)
 
 local mod = main:Button("Next Server", function()
     local Http = game:GetService("HttpService")
